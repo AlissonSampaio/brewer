@@ -20,9 +20,7 @@ public class CervejasController {
 
 	@RequestMapping("/cervejas/novo")
 	public String novo(Cerveja cerveja) {
-		if(logger.isDebugEnabled()) {
-		logger.debug("O objeto cerveja é: " +cerveja);
-		}
+		
 		return "cerveja/CadastroCerveja";
 	}
 	
