@@ -34,5 +34,6 @@ public class Cerveja {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
 }
 	

@@ -4,7 +4,9 @@
 	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
 	layout:decorator="'layout/LayoutPadrao'">
 
-<head></head>
+<head>
+	<title>Cadastro de cerveja</title>
+</head>
 
 
 <body>
@@ -14,7 +16,7 @@
 	<div class="page-header">
 		<div class="container-fluid">
 			<h1>
-			Cadastro de produto
+			Cadastro de cerveja
 			</h1>
 		</div>
 	</div>
@@ -60,7 +62,7 @@
 										<i class="glyphicon glyphicon-plus-sign bw-glyphicon-large"></i>
 									</a>
 								</div>
-							</div>
+								</div>
 					</div>
 					
 					<div class="col-sm-3  form-group">
@@ -83,13 +85,15 @@
 					<div class="col-lg-3  col-sm-8  form-group">
 							<div>
 								<label for="origem">Origem</label>
-								<div class="radio radio-inline">
-									<input type="radio" name="origem">
-									<label>Nacional</label>
-								</div>
-								<div class="radio radio-inline">
-									<input type="radio" name="origem">
-									<label>Internacional</label>
+								<div>
+									<div class="radio radio-inline">
+										<input type="radio" name="origem">
+										<label>Nacional</label>
+									</div>
+									<div class="radio radio-inline">
+										<input type="radio" name="origem">
+										<label>Internacional</label>
+									</div>
 								</div>
 							</div>
 					</div>
